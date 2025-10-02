@@ -68,6 +68,21 @@ For researchers developing new containerization solutions for non-experts, gap-i
 - **Gap papers reveal why existing solutions fail to generalize**: Multiple solution papers claim to improve usability for non-experts, yet gap papers show adoption remains limited. _This suggests the problem lies not in containerization technology itself but in scientific workflow practices. Tools providing better Docker interfaces don't address the root cause._
 - **Gap papers articulate unmet needs that define research opportunities**: The most valuable gap papers don't merely list problems—they define solution requirements with precision.
 
+## Why Container Adoption Low
+- Expertise Barrier
+  - Requiring knowledge across networking, operating systems, cloud computing, and software engineering simultaneously
+  - Improper version control and documentation remain pervasive issues
+ 
+- Cost Benefit Analysis
+  - No citation credit, no authorship recognition, no hiring committee asking about reproducibility contribution
+
+- Abstraction Has Problems
+  - The "easier" tools like Galaxy, Nextflow, and Binder succeed by hiding complexity, but this creates brittleness (specific versins or no extensibility)
+ 
+- Even when researchers successfully create reproducible artifacts, they become unsearchable and unfindable after evaluation. Artifacts live on GitHub, papers in digital libraries, with no systematic connection between them. There's no "Google Scholar for reproducible artifacts."
+
+- The fundamental issue is that we've treated reproducibility as a technical problem requiring better tools, when it's actually a social/institutional problem requiring different incentive structures, workflows, and support systems. Better container technology won't fix broken incentives or intractable domain barriers.
+
 
 
 
